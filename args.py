@@ -1,5 +1,5 @@
 import argparse
-parser = argparse.ArgumentParser
+parser = argparse.ArgumentParser()
 
 def add_arg(shortform, longform, required=False):
     """use for adding single argument"""
