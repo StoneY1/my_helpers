@@ -14,3 +14,11 @@ def add_args(*args):
 def get_arg(arg_name):
     args = vars(parser.parse_args())
     return args[arg_name]
+
+def get_args(*args):
+    """Fetch multiple arguments"""
+    all_args = []
+    for arg in args:
+        all_args.append(get_arg(arg))
+
+    return (arg for arg in all_args)
