@@ -1,3 +1,6 @@
+""" 
+Basic wrappers for ArgParser, didn't feel like remembering how to set it up every time.
+"""
 import argparse
 parser = argparse.ArgumentParser()
 
